@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flex-box{
+            display: flex;
+            flex-direction: row;
+            margin: 0;
+            padding:0;
+            box-sizing: border-box;
+        }
+        .flex-container{
+            height: auto;
+            width: 600px;
+            flex-direction: column;
+            border: 2px solid black;
+        }
+        .flex-item1{
+                /* margin: 100px; */
+                /* padding: 50px; */
+                /* margin-top: 100px; */
+                background-color: aqua;
+                border: 2px solid black;
+        }
+        .flex-item2{
+            margin-top: 100px;
+                background-color: rgb(30, 0, 255);
+                border: 2px solid black;
+        }
+        .flex-item3{
+             /* flex: right; */
+                margin-left: 100px;
+                width: 600px;
+                height: 400px;
+                background-color: rgb(255, 0, 238);
+                border: 2px solid black;
+        }
+        @media (max-width:700px){
+            .flex-box{
+                flex-direction: column;
+            }
+        }
+        /* @media (min-width:700px){
+            .flex-box{
+                flex-direction: column;
+            }
+        } */
+    </style>
+</head>
+<body>
+    <div class="flex-box">
+        <div class="flex-container">
+            <div class="flex-item1">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum dolorum aut nam error aperiam at magnam ea facilis eveniet saepe veniam alias quod autem quos, enim molestiae impedit expedita nihil.</p>
+            </div>
+            <div class="flex-item2">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto nihil modi consectetur facere a totam facilis voluptates pariatur, nostrum dolorem sed veritatis, quidem excepturi minus atque ipsa accusamus exercitationem itaque?</p>
+            </div><div class="flex-item2">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto nihil modi consectetur facere a totam facilis voluptates pariatur, nostrum dolorem sed veritatis, quidem excepturi minus atque ipsa accusamus exercitationem itaque?</p>
+            </div><div class="flex-item2">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto nihil modi consectetur facere a totam facilis voluptates pariatur, nostrum dolorem sed veritatis, quidem excepturi minus atque ipsa accusamus exercitationem itaque?</p>
+            </div><div class="flex-item2">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto nihil modi consectetur facere a totam facilis voluptates pariatur, nostrum dolorem sed veritatis, quidem excepturi minus atque ipsa accusamus exercitationem itaque?</p>
+            </div>
+        </div>
+
+        <div class="flex-item3">
+            Lorem ipsum dolor Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi quae dolor sunt aperiam enim, omnis aspernatur ipsa at maiores numquam vero, perspiciatis ad deserunt dolore temporibus? Est placeat doloremque excepturi! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem facilis, natus quidem dolorem est deleniti atque eligendi delectus enim laboriosam nesciunt. Natus et facere totam minima. Iste impedit suscipit dicta.sit amet consectetur adipisicing elit. Quasi quae dolor sunt aperiam enim, omnis aspernatur ipsa at maiores numquam vero, perspiciatis ad deserunt dolore temporibus? Est placeat doloremque excepturi! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem facilis, natus quidem dolorem est deleniti atque eligendi delectus enim laboriosam nesciunt. Natus et facere totam minima. Iste impedit suscipit dicta.
+        </div>
+    </div>
+</body>
+</html>
